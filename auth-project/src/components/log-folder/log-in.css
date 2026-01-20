@@ -1,0 +1,43 @@
+.container{
+    align-items: center;
+}
+
+/* restyling the form with grid display */
+
+.form-2{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-2 input{
+    grid-column: span 2 / span 2;
+    height: 40px;
+    outline: none;
+    background-color: #c9cbcc;
+    border: none;
+    font-family: "poppins";
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.form-2 input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #625f5f;
+    opacity: 40%;
+}
+.form-2 input:focus{
+    border: none;
+    outline: none;
+}
+
+/*fgt paswd style*/
+.forgot-pswd{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-decoration: none;
+    color: #011c40;
+    justify-self:  end;
+}

@@ -1,0 +1,111 @@
+
+/*this is the styling of the container of the sign-in form */
+.container{
+    width: 600px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 40px;
+    font-family: "poppins", sans-serif;
+    border-radius: 36px;
+}
+
+/* styling of the title sign in*/
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color:#011c40;
+}
+
+/* styling of the icons */
+.icons{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.icn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #011c40;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #011c40;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-brands{
+   font-size:20px;
+}
+.icn:hover{
+    transform: scale(1.05);
+    background:linear-gradient(180deg, #ffffff, #fafafa);
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.164);
+}
+
+/* styling of the form */
+
+.form-1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.form-1 input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: #c9cbcc;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: "poppins";
+}
+
+.form-1 input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #625f5f;
+    opacity: 40%;
+}
+.form-1 input:focus{
+    border: none;
+    outline: none;
+}
+
+/* button styling*/
+.btn{
+    width: 400px;
+    height: 40px;
+    background-color: #011c40;
+    color: #ffffff;
+    border: none;
+    font-family: "poppins";
+    font-size: 18px;
+    margin-top:40px;
+    align-self: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #011c40;
+    color: #011c40;
+    font-weight: 600;
+    box-shadow: 0px 3px 5px #011c403a
+}
+
