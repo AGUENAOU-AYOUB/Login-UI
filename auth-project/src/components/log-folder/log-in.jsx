@@ -30,6 +30,7 @@ function LogIn(){
                 <a href="" className="forgot-pswd" id="forgotPassword"><i>Forgot Password?</i></a>
             </form>
             <button type="submit" className="btn">Log In</button>
+            <div className="image"></div>
         </div>
     );
 }
