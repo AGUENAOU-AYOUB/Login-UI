@@ -66,9 +66,11 @@ function SignIn() {
           required
         />
       </form>
+      
       <button type="submit" className="btn" onClick={signInBtn}>
         Sign In
       </button>
+      <div className="image"></div>
     </div>
   );
 }

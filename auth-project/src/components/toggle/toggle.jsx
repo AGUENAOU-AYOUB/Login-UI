@@ -4,7 +4,7 @@ import './toggle.css';
 function Toggle() {
   const [isMoved, setIsMoved] = useState(false);
   const toggleStyle = {
-    backgroundColor: "#011c40",
+    backgroundColor: " #0D585F",
     width: "600px",
     height: "750px",
 
@@ -39,8 +39,8 @@ function Toggle() {
   // Dynamic content
   const title = isMoved ? 'Welcome Back!' : 'Hello Friend!';
   const description = isMoved
-    ? 'Enter your personal details to use all of our website features'
-    : 'Register with your personal details to use all of our website features';
+    ? 'This is a website for selling mint'
+    : 'This is a website for selling mint';
   const buttonText = isMoved ? 'Sign In' : 'Register Here';
 
   const handleClick = () => {
